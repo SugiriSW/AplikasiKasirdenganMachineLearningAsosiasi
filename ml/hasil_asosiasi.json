@@ -3,224 +3,168 @@
         "if_buy": "Cappuccino",
         "then_buy": "Beras Pandan Wangi 5kg",
         "confidence": 1,
-        "support": 0.222,
-        "count_ab": 2,
-        "count_a": 2
+        "support": 0.222
     },
     {
         "if_buy": "Cappuccino",
         "then_buy": "Es Teh Manis",
         "confidence": 1,
-        "support": 0.222,
-        "count_ab": 2,
-        "count_a": 2
+        "support": 0.222
     },
     {
         "if_buy": "Nasi Goreng Special",
         "then_buy": "OREO",
         "confidence": 1,
-        "support": 0.111,
-        "count_ab": 1,
-        "count_a": 1
+        "support": 0.111
     },
     {
         "if_buy": "Nasi Goreng Special",
         "then_buy": "Pilus Garuda",
         "confidence": 1,
-        "support": 0.111,
-        "count_ab": 1,
-        "count_a": 1
+        "support": 0.111
     },
     {
         "if_buy": "OREO",
         "then_buy": "Pilus Garuda",
         "confidence": 1,
-        "support": 0.222,
-        "count_ab": 2,
-        "count_a": 2
+        "support": 0.222
     },
     {
         "if_buy": "Indomie Goreng",
         "then_buy": "Cappuccino",
         "confidence": 1,
-        "support": 0.111,
-        "count_ab": 1,
-        "count_a": 1
+        "support": 0.111
     },
     {
         "if_buy": "Indomie Goreng",
         "then_buy": "Beras Pandan Wangi 5kg",
         "confidence": 1,
-        "support": 0.111,
-        "count_ab": 1,
-        "count_a": 1
+        "support": 0.111
     },
     {
         "if_buy": "Indomie Goreng",
         "then_buy": "Es Teh Manis",
         "confidence": 1,
-        "support": 0.111,
-        "count_ab": 1,
-        "count_a": 1
+        "support": 0.111
     },
     {
         "if_buy": "Indomie Goreng",
         "then_buy": "Espresso",
         "confidence": 1,
-        "support": 0.111,
-        "count_ab": 1,
-        "count_a": 1
+        "support": 0.111
     },
     {
         "if_buy": "Es Teh Manis",
         "then_buy": "Beras Pandan Wangi 5kg",
         "confidence": 0.667,
-        "support": 0.222,
-        "count_ab": 2,
-        "count_a": 3
+        "support": 0.222
     },
     {
         "if_buy": "Es Teh Manis",
         "then_buy": "Cappuccino",
         "confidence": 0.667,
-        "support": 0.222,
-        "count_ab": 2,
-        "count_a": 3
+        "support": 0.222
     },
     {
         "if_buy": "Pilus Garuda",
         "then_buy": "OREO",
         "confidence": 0.667,
-        "support": 0.222,
-        "count_ab": 2,
-        "count_a": 3
+        "support": 0.222
     },
     {
         "if_buy": "Beras Pandan Wangi 5kg",
         "then_buy": "Cappuccino",
         "confidence": 0.5,
-        "support": 0.222,
-        "count_ab": 2,
-        "count_a": 4
+        "support": 0.222
     },
     {
         "if_buy": "Beras Pandan Wangi 5kg",
         "then_buy": "Es Teh Manis",
         "confidence": 0.5,
-        "support": 0.222,
-        "count_ab": 2,
-        "count_a": 4
+        "support": 0.222
     },
     {
         "if_buy": "OREO",
         "then_buy": "Nasi Goreng Special",
         "confidence": 0.5,
-        "support": 0.111,
-        "count_ab": 1,
-        "count_a": 2
+        "support": 0.111
     },
     {
         "if_buy": "Cappuccino",
         "then_buy": "Espresso",
         "confidence": 0.5,
-        "support": 0.111,
-        "count_ab": 1,
-        "count_a": 2
+        "support": 0.111
     },
     {
         "if_buy": "Cappuccino",
         "then_buy": "Indomie Goreng",
         "confidence": 0.5,
-        "support": 0.111,
-        "count_ab": 1,
-        "count_a": 2
+        "support": 0.111
     },
     {
         "if_buy": "OREO",
         "then_buy": "Es Teh Manis",
         "confidence": 0.5,
-        "support": 0.111,
-        "count_ab": 1,
-        "count_a": 2
+        "support": 0.111
     },
     {
         "if_buy": "Pilus Garuda",
         "then_buy": "Nasi Goreng Special",
         "confidence": 0.333,
-        "support": 0.111,
-        "count_ab": 1,
-        "count_a": 3
+        "support": 0.111
     },
     {
         "if_buy": "Es Teh Manis",
         "then_buy": "Espresso",
         "confidence": 0.333,
-        "support": 0.111,
-        "count_ab": 1,
-        "count_a": 3
+        "support": 0.111
     },
     {
         "if_buy": "Es Teh Manis",
         "then_buy": "Indomie Goreng",
         "confidence": 0.333,
-        "support": 0.111,
-        "count_ab": 1,
-        "count_a": 3
+        "support": 0.111
     },
     {
         "if_buy": "Espresso",
         "then_buy": "Cappuccino",
         "confidence": 0.333,
-        "support": 0.111,
-        "count_ab": 1,
-        "count_a": 3
+        "support": 0.111
     },
     {
         "if_buy": "Espresso",
         "then_buy": "Beras Pandan Wangi 5kg",
         "confidence": 0.333,
-        "support": 0.111,
-        "count_ab": 1,
-        "count_a": 3
+        "support": 0.111
     },
     {
         "if_buy": "Espresso",
         "then_buy": "Es Teh Manis",
         "confidence": 0.333,
-        "support": 0.111,
-        "count_ab": 1,
-        "count_a": 3
+        "support": 0.111
     },
     {
         "if_buy": "Espresso",
         "then_buy": "Indomie Goreng",
         "confidence": 0.333,
-        "support": 0.111,
-        "count_ab": 1,
-        "count_a": 3
+        "support": 0.111
     },
     {
         "if_buy": "Pilus Garuda",
         "then_buy": "Es Teh Manis",
         "confidence": 0.333,
-        "support": 0.111,
-        "count_ab": 1,
-        "count_a": 3
+        "support": 0.111
     },
     {
         "if_buy": "Es Teh Manis",
         "then_buy": "OREO",
         "confidence": 0.333,
-        "support": 0.111,
-        "count_ab": 1,
-        "count_a": 3
+        "support": 0.111
     },
     {
         "if_buy": "Es Teh Manis",
         "then_buy": "Pilus Garuda",
         "confidence": 0.333,
-        "support": 0.111,
-        "count_ab": 1,
-        "count_a": 3
+        "support": 0.111
     }
 ]
