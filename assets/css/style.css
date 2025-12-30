@@ -1580,3 +1580,197 @@ header {
 .btn-logout i {
     font-size: 1rem;
 }
+.rental-container {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 1.5rem;
+}
+
+.rental-section {
+    background-color: white;
+    border-radius: var(--border-radius);
+    padding: 1.5rem;
+    box-shadow: var(--box-shadow);
+}
+
+.rental-section h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/* ---------- Product Card ---------- */
+.rental-product-card {
+    border: 1px solid #e9ecef;
+    border-radius: var(--border-radius);
+    padding: 1rem;
+    cursor: pointer;
+    transition: var(--transition);
+    background-color: #fff;
+}
+
+.rental-product-card:hover {
+    border-color: var(--primary-color);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.08);
+}
+
+.rental-product-card.selected {
+    border: 2px solid var(--primary-color);
+    background-color: rgba(67, 97, 238, 0.05);
+}
+
+/* ---------- Rental Type Button ---------- */
+.rental-type-btn {
+    padding: 0.5rem 1.2rem;
+    border-radius: 20px;
+    border: 1px solid var(--gray-color);
+    background-color: white;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: var(--transition);
+}
+
+.rental-type-btn.active {
+    background-color: var(--primary-color);
+    color: white;
+    border-color: var(--primary-color);
+}
+
+.rental-type-btn:hover {
+    border-color: var(--primary-color);
+}
+
+/* ---------- Form ---------- */
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-bottom: 0.3rem;
+    display: block;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 0.6rem 0.8rem;
+    border-radius: var(--border-radius);
+    border: 1px solid var(--gray-color);
+    outline: none;
+    transition: var(--transition);
+    font-family: 'Poppins', sans-serif;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 2px rgba(67,97,238,0.15);
+}
+
+.time-inputs {
+    display: flex;
+    gap: 1rem;
+}
+
+.time-inputs div {
+    flex: 1;
+}
+
+/* ---------- Price Summary ---------- */
+.price-summary h4 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+/* ---------- Active Rental ---------- */
+.active-rental-card {
+    border: 1px solid #e9ecef;
+    border-radius: var(--border-radius);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    transition: var(--transition);
+}
+
+.active-rental-card.late {
+    border-color: var(--danger-color);
+    background-color: rgba(247, 37, 133, 0.05);
+}
+
+.rental-timer {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+/* ---------- Message ---------- */
+.success-message {
+    background-color: rgba(76, 201, 240, 0.15);
+    color: #0b7285;
+    padding: 0.8rem 1rem;
+    border-radius: var(--border-radius);
+    margin-bottom: 1rem;
+}
+
+.error-message {
+    background-color: rgba(247, 37, 133, 0.15);
+    color: #a61e4d;
+    padding: 0.8rem 1rem;
+    border-radius: var(--border-radius);
+    margin-bottom: 1rem;
+}
+
+/* ---------- Modal ---------- */
+.modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 999;
+}
+
+.modal-content {
+    background-color: white;
+    max-width: 450px;
+    margin: 5% auto;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    overflow: hidden;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    border-bottom: 1px solid var(--gray-color);
+}
+
+.modal-header h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.modal-header .close {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.modal-body {
+    padding: 1.5rem;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 992px) {
+    .rental-container {
+        grid-template-columns: 1fr;
+    }
+}

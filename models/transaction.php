@@ -36,3 +36,4 @@ class Transaction {
         return $this->conn->query($query);
     }
 }
+

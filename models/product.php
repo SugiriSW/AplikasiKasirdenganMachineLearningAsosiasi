@@ -146,4 +146,5 @@ public function getStock($productId) {
     return $row ? (int)$row['stock'] : null;
 }
 }
+
 ?>

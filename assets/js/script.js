@@ -209,7 +209,7 @@ function renderCart() {
     });
     
     // Calculate discount (10% if subtotal > 100000)
-    const discount = subtotal > 100000 ? subtotal * 0.1 : 0;
+    const discount = subtotal > 100000 ? subtotal * 0 : 0;
     const total = subtotal - discount;
     
     subtotalElement.textContent = formatRupiah(subtotal);
@@ -298,7 +298,7 @@ function checkout() {
     
     // Calculate and save total
     const subtotal = cart.reduce((total, item) => total + (item.price * item.quantity), 0);
-    const discount = subtotal > 100000 ? subtotal * 0.1 : 0;
+    const discount = subtotal > 100000 ? subtotal * 0 : 0;
     const total = subtotal - discount;
     
     const totalAmount = { subtotal, discount, total };

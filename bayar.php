@@ -20,7 +20,7 @@ $product = new Product($db);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pembayaran - GrosirMart</title>
+    <title>Pembayaran - GSG</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -30,7 +30,7 @@ $product = new Product($db);
         <header>
             <div class="logo">
                 <i class="fas fa-store-alt"></i>
-                <h1>Grosir<span>Mart</span></h1>
+                <h1>GSG - <span>Access</span></h1>
             </div>
             <div class="page-title">
                 <h2>Pembayaran</h2>

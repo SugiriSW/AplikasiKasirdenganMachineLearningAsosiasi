@@ -5,7 +5,7 @@ redirectIfNotLoggedIn();
 <header>
     <div class="logo">
         <i class="fas fa-store-alt"></i>
-        <h1>Grosir<span>Mart</span></h1>
+            <h1>GSG - <span>Access</span></h1>
     </div>
 
     <div class="search-box">
